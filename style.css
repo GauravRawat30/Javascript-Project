@@ -1,0 +1,173 @@
+
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container.mainform {
+    margin: 0 auto;
+    width: 500px;
+    justify-content: center;
+    background: #fff;
+    padding: 10px 0px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 6px #7c7b7b;
+}
+.backimg {
+   
+    filter: brightness(0.5);
+    width: 100%;
+}
+.background{
+    width: 100%;
+}
+section.form {
+    position: absolute;
+    width: 100%;
+    top: 18%;
+}
+.inputHead {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #333;
+    letter-spacing: 1px;
+}
+.inputBody h4 {
+    margin: 26px 0px 5px 0px;
+    font-weight: 900;
+    font-size: 13px;
+}
+.inputBody input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 12px;
+    border-bottom: 2px solid #c7c7c7;
+    border-top: none;
+    
+    border-left: none;
+    border-right: none;
+}
+.redcolor{
+    border-bottom: 1px solid red !important;
+}
+#submitbtn {
+    background: #2c8a9f;
+    color: #fff;
+    margin: 30px auto 0px auto;
+    border-radius: 10px;
+    height: 44px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+.submitbtn {
+    text-align: center;
+    width: 100%;
+}
+
+.inputHead h2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+/*resume css*/
+
+.personblock img {
+    width: 100px;
+    border-radius: 80px;
+    box-shadow: 0px 0px 10px 4px #5c5a5a;
+}
+.resumehead {
+    background: #2c8a9f;
+    padding: 20px 0px;
+}
+.personblock {
+    text-align: center;
+}
+.resume {
+    background: #fff;
+    box-shadow: 0px 0px 10px #2c8a9f;
+    width: 800px;
+    margin: 40px auto !important;
+}
+.personblock p:nth-child(2) {
+    margin-top: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.personblock p:nth-child(3) {
+    color: #fff;
+    font-size: 14px;
+}
+.about p:nth-child(1),.leftpart p:nth-child(1),.rightpart p:nth-child(1) {
+    font-weight: bold;
+    font-size: 16px;
+}
+.row.resumebody {
+    padding: 30px;
+}
+.about p:nth-child(2), .leftpart p:nth-child(2),.rightpart p:nth-child(2) {
+    font-size: 12px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+.col-md-6.leftpart {
+    border-right: 1px solid #c5c5c5;
+}
+.skills ul {
+    margin-left: 16px;
+}
+.error {
+    font-size: 11px;
+    color: red;
+    margin-top: 8px;
+    position: absolute;
+    width: 100%;
+    left: 15px;
+    top: 73px
+    
+}
+form .col-md-6 {
+    margin-bottom: 16px;
+}
+
+
+
+/*media query resume*/
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .resume {
+        width: 100%;
+    }
+    .col-md-6.leftpart {
+        border: none;
+    }
+}
+/*media query inputform*/
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .error {
+        position: initial !important;
+    }
+    .container.mainform {
+        width: 100%;
+        box-shadow: 0px 0px 8px 1px #7c7b7b;
+        width: 90%;
+    }
+  
+    input#submitbtn {
+        width: 100%;
+        left: 0%;
+    }
+    img.backimg {
+        height: 135vh;
+    }
+}
